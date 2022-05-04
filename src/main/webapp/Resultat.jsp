@@ -4,9 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Result</title>
+
+<link rel="stylesheet" href="css/design.css">
+
 </head>
 <body>
-
+<p><strong>Стоимость осаго составит: </strong> ${result}</p>
+<br><br>
+ <form action="${pageContext.request.contextPath}/Osnovnaya.jsp">
+	<input type="submit" name="back" value="Назад">
+</form>
 </body>
 </html>
